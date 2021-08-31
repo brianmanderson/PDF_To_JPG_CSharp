@@ -1,4 +1,4 @@
-﻿using System;
+using System;
 using System.Collections.Generic;
 using Syncfusion.Pdf.Parsing;
 using Syncfusion.Windows.Forms.PdfViewer;
@@ -6,6 +6,7 @@ using System.Drawing;
 using System.Drawing.Imaging;
 using System.Threading;
 using System.IO;
+
 
 
 namespace PDF_to_JPG
@@ -82,7 +83,15 @@ namespace PDF_to_JPG
                 Thread.Sleep(3000);
                 foreach (string file_path in file_paths)
                 {
-                    Program.check_path(file_path: file_path);
+                    Thread.Sleep(1000);
+                    try
+                    {
+                        Program.check_path(file_path: file_path);
+                    }
+                    catch
+                    {
+                        continue;
+                    }
                 }
             }
         }
