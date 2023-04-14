@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 17
 VisualStudioVersion = 17.5.33516.290
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF_to_Jpeg_CSharp", "PDF_to_Jpeg_CSharp\PDF_to_Jpeg_CSharp.csproj", "{7BC0E946-7F1C-43B0-8AC8-843D4588BB77}"
-EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PDF_To_JPEGClass", "PDF_To_JPEGClass\PDF_To_JPEGClass.csproj", "{4222469D-98F3-4D8B-9492-9BD8C3112789}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MainRun", "MainRun\MainRun.csproj", "{39915769-9A23-45F9-9882-BC277C8CBB91}"
@@ -15,10 +13,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{7BC0E946-7F1C-43B0-8AC8-843D4588BB77}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{7BC0E946-7F1C-43B0-8AC8-843D4588BB77}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{7BC0E946-7F1C-43B0-8AC8-843D4588BB77}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{7BC0E946-7F1C-43B0-8AC8-843D4588BB77}.Release|Any CPU.Build.0 = Release|Any CPU
 		{4222469D-98F3-4D8B-9492-9BD8C3112789}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{4222469D-98F3-4D8B-9492-9BD8C3112789}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4222469D-98F3-4D8B-9492-9BD8C3112789}.Release|Any CPU.ActiveCfg = Release|Any CPU
