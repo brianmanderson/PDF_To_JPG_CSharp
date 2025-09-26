@@ -22,7 +22,7 @@ namespace PDF_To_JPEGClass
             string[] all_files = Directory.GetFiles(directory);
             foreach (string file in all_files)
             {
-                if (file.EndsWith(".pdf"))
+                if (file.ToLower().EndsWith(".pdf"))
                 {
                     pdf_files.Add(file);
                 }
